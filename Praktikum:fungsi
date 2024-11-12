@@ -1,0 +1,18 @@
+def persegi_panjang():
+    print("Program Persegi Panjang")
+    panjang = float(input("Masukkan panjang: "))
+    lebar = float(input("Masukkan lebar: "))
+    
+    def luas(p, l):
+        return p * l
+    
+    def keliling(p, l):
+        return 2 * (p + l)
+    
+    luas_persegi = luas(panjang, lebar)
+    keliling_persegi = keliling(panjang, lebar)
+    
+    print(f"Luas persegi panjang adalah {luas_persegi} satuan luas.")
+    print(f"Keliling persegi panjang adalah {keliling_persegi} satuan panjang.")
+
+persegi_panjang()
